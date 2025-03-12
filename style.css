@@ -8,18 +8,18 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Apple Chancery', cursive;
     line-height: 1.7;
-    background-color: #224b8a; /* Dark Blue */
-    color: #A7C7E7;
+    background-color: #191970; /* Dark Blue */
+    color: #B6ABCE; /* Lightest Blue */
 }
 
 header {
-    background-color: #224b8a; /* Darker Blue */
-    color: #A7C7E7;
+    background-color: #483A87; /* Darker Blue/Purple */
+    color: #B6ABCE; /* Lightest Blue */
     padding: 15px 0;
     text-align: center;
-    border-bottom: 4px solid #6495ED; /* Light Blue border */
+    border-bottom: 4px solid #9184B7; /* Light Blue */
 }
 
 header h1 {
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #B6ABCE; /* Lightest Blue */
     text-decoration: none;
     font-weight: bold;
 }
@@ -48,17 +48,17 @@ main {
 
 footer {
     text-align: center;
-    background-color: #4682B4;
-    color: white;
+    background-color: #6D5E9F; /* Muted Lavender-Blue */
+    color: #B6ABCE; /* Lightest Blue */
     padding: 10px;
-    border-top: 4px solid #4682B4;
+    border-top: 4px solid #9184B7; /* Light Blue */
 }
 
 .intro img {
     width: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: 5px solid #6495ED; /* Light Blue border */
+    border: 5px solid #9184B7; /* Dusty Blue */
 }
 
 /* Form Inputs */
@@ -66,17 +66,17 @@ form input, form textarea {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
-    border: 2px solid #6495ED; /* Light Blue */
+    border: 2px solid #9184B7; /* Light Blue */
     border-radius: 10px;
-    background-color: #1E2749; /* Slightly lighter dark blue */
-    color: #A7C7E7;
+    background-color: #483A87; /* Darker Blue/Purple */
+    color: #B6ABCE; /* Lightest Blue */
 }
 
 /* CUTE CIRCLE BUTTON */
 form button {
     width: 60px;
     height: 60px;
-    background-color: #6495ED; /* Light Blue */
+    background-color: #9184B7; /* Dusty Blue */
     color: white;
     border: none;
     cursor: pointer;
@@ -88,13 +88,13 @@ form button {
     justify-content: center;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    box-shadow: 3px 3px 10px rgba(70, 130, 180, 0.5); /* Soft light blue shadow */
+    box-shadow: 3px 3px 10px rgba(145, 132, 183, 0.5); /* Soft Dusty Blue shadow */
     outline: none;
 }
 
 /* Hover Effect */
 form button:hover {
-    background-color: #bfcfff; /* Lighter Blue */
+    background-color: #B6ABCE; /* Lightest Blue */
     transform: scale(1.1);
-    box-shadow: 5px 5px 15px rgba(70, 130, 180, 0.7);
+    box-shadow: 5px 5px 15px rgba(145, 132, 183, 0.7); /* Bigger shadow */
 }
