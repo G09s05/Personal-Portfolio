@@ -1,4 +1,6 @@
 /* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,17 +8,18 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    background-color: #E6E6FA; /* Lavender */
     color: #333;
 }
 
 header {
     background-color: #333;
-    color: white;
-    padding: 10px 0;
+    color: #FFF; /* White for better contrast */
+    padding: 15px 0;
     text-align: center;
+    border-bottom: 4px solid #B19CD9; /* Soft lavender border */
 }
 
 header h1 {
@@ -30,12 +33,13 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
@@ -47,24 +51,49 @@ footer {
     background-color: #333;
     color: white;
     padding: 10px;
+    border-top: 4px solid #B19CD9;
 }
 
 .intro img {
     width: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
+    border: 5px solid #FFC0CB; /* Cute pink border */
 }
 
+/* Form Inputs */
 form input, form textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin: 10px 0;
+    border: 2px solid #B19CD9;
+    border-radius: 10px;
+    background-color: #F8F8FF;
 }
 
+/* CUTE CIRCLE BUTTON */
 form button {
-    padding: 10px 20px;
-    background-color: #333;
+    width: 60px; /* Fixed size to make it a perfect circle */
+    height: 60px;
+    background-color: #B19CD9; /* Pastel lavender */
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 50%; /* Makes it a perfect circle */
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px rgba(177, 156, 217, 0.5); /* Soft cute shadow */
+    outline: none; /* Removes focus outline */
+}
+
+/* Hover Effect */
+form button:hover {
+    background-color: #D8BFD8; /* Lighter lavender */
+    transform: scale(1.1); /* Slightly larger on hover */
+    box-shadow: 5px 5px 15px rgba(177, 156, 217, 0.7); /* Bigger shadow */
 }
