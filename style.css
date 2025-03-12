@@ -11,15 +11,15 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
     background-color: #001861; /* Dark Blue */
-    color: #FFF;
+    color: #A7C7E7;
 }
 
 header {
     background-color: #000066; /* Darker Blue */
-    color: #FFF;
+    color: #A7C7E7;
     padding: 15px 0;
     text-align: center;
-    border-bottom: 4px solid #809fff; /* Light Blue border */
+    border-bottom: 4px solid #6495ED; /* Light Blue border */
 }
 
 header h1 {
@@ -58,7 +58,7 @@ footer {
     width: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: 5px solid #809fff; /* Light Blue border */
+    border: 5px solid #6495ED; /* Light Blue border */
 }
 
 /* Form Inputs */
@@ -66,17 +66,17 @@ form input, form textarea {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
-    border: 2px solid ##809fff; /* Light Blue */
+    border: 2px solid #6495ED; /* Light Blue */
     border-radius: 10px;
     background-color: #1E2749; /* Slightly lighter dark blue */
-    color: #FFF;
+    color: #A7C7E7;
 }
 
 /* CUTE CIRCLE BUTTON */
 form button {
     width: 60px;
     height: 60px;
-    background-color: #809fff; /* Light Blue */
+    background-color: #6495ED; /* Light Blue */
     color: white;
     border: none;
     cursor: pointer;
