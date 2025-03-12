@@ -10,12 +10,12 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
-    background-color: #001861; /* Dark Blue */
+    background-color: #224b8a; /* Dark Blue */
     color: #A7C7E7;
 }
 
 header {
-    background-color: #000066; /* Darker Blue */
+    background-color: #224b8a; /* Darker Blue */
     color: #A7C7E7;
     padding: 15px 0;
     text-align: center;
@@ -48,7 +48,7 @@ main {
 
 footer {
     text-align: center;
-    background-color: #0D1321;
+    background-color: #4682B4;
     color: white;
     padding: 10px;
     border-top: 4px solid #4682B4;
