@@ -10,16 +10,16 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
-    background-color: #E6E6FA; /* Lavender */
-    color: #333;
+    background-color: #1B1F3B; /* Dark Blue */
+    color: #FFF;
 }
 
 header {
-    background-color: #333;
-    color: #FFF; /* White for better contrast */
+    background-color: #0D1321; /* Darker Blue */
+    color: #FFF;
     padding: 15px 0;
     text-align: center;
-    border-bottom: 4px solid #B19CD9; /* Soft lavender border */
+    border-bottom: 4px solid #4682B4; /* Light Blue border */
 }
 
 header h1 {
@@ -48,17 +48,17 @@ main {
 
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #0D1321;
     color: white;
     padding: 10px;
-    border-top: 4px solid #B19CD9;
+    border-top: 4px solid #4682B4;
 }
 
 .intro img {
     width: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: 5px solid #FFC0CB; /* Cute pink border */
+    border: 5px solid #4682B4; /* Light Blue border */
 }
 
 /* Form Inputs */
@@ -66,20 +66,21 @@ form input, form textarea {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
-    border: 2px solid #B19CD9;
+    border: 2px solid #4682B4; /* Light Blue */
     border-radius: 10px;
-    background-color: #F8F8FF;
+    background-color: #1E2749; /* Slightly lighter dark blue */
+    color: #FFF;
 }
 
 /* CUTE CIRCLE BUTTON */
 form button {
-    width: 60px; /* Fixed size to make it a perfect circle */
+    width: 60px;
     height: 60px;
-    background-color: #B19CD9; /* Pastel lavender */
+    background-color: #4682B4; /* Light Blue */
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 50%; /* Makes it a perfect circle */
+    border-radius: 50%;
     font-size: 16px;
     font-weight: bold;
     display: flex;
@@ -87,13 +88,13 @@ form button {
     justify-content: center;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    box-shadow: 3px 3px 10px rgba(177, 156, 217, 0.5); /* Soft cute shadow */
-    outline: none; /* Removes focus outline */
+    box-shadow: 3px 3px 10px rgba(70, 130, 180, 0.5); /* Soft light blue shadow */
+    outline: none;
 }
 
 /* Hover Effect */
 form button:hover {
-    background-color: #D8BFD8; /* Lighter lavender */
-    transform: scale(1.1); /* Slightly larger on hover */
-    box-shadow: 5px 5px 15px rgba(177, 156, 217, 0.7); /* Bigger shadow */
+    background-color: #5A9BD4; /* Lighter Blue */
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(70, 130, 180, 0.7);
 }
