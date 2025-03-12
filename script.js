@@ -1,24 +1,71 @@
-// Change Background Color
-function changeBackgroundColor() {
-    document.body.style.backgroundColor = "#e0e0e0";
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-// Show Greeting Based on Time
-function showGreeting() {
-    let date = new Date();
-    let hours = date.getHours();
-    let greeting = hours < 12 ? "Good Morning" :
-                   hours < 18 ? "Good Afternoon" :
-                   "Good Evening";
-    alert(greeting);
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-// Display User Input from Form
-function displayFormData(event) {
-    event.preventDefault(); 
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let message = document.getElementById("message").value;
-    
-    alert(`Thank you, ${name}! We'll get back to you at ${email} soon.\n\nMessage: ${message}`);
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.intro img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
