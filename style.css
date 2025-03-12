@@ -15,8 +15,8 @@ body {
 }
 
 header {
-    background-color: #7393B3; /* Darker Blue/Purple */
-    color:#A7C7E7; /* Lightest Blue */
+    background-color: #4B6A92; /* Darker Blue */
+    color: #A7C7E7; /* Lightest Blue */
     padding: 15px 0;
     text-align: center;
     border-bottom: 4px solid #B6D0E2; /* Light Blue */
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #B6ABCE; /* Lightest Blue */
+    color: #B6D0E2; /* Light Blue for navigation links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -48,8 +48,8 @@ main {
 
 footer {
     text-align: center;
-    background-color: #7393B3; /* Muted Lavender-Blue */
-    color: #B6ABCE; /* Lightest Blue */
+    background-color: #3A5775; /* Darker Blue/Purple */
+    color: #B6D0E2; /* Light Blue */
     padding: 10px;
     border-top: 4px solid #A7C7E7; /* Light Blue */
 }
@@ -78,7 +78,7 @@ form button {
     height: 60px;
     background-color: #9184B7; /* Dusty Blue */
     color: white;
-    border: none;
+    border: 2px solid #A1A8B5; /* Slightly Greyer Border */
     cursor: pointer;
     border-radius: 50%;
     font-size: 16px;
