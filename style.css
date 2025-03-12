@@ -8,18 +8,18 @@
 }
 
 body {
-    font-family: 'Apple Chancery', cursive;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.7;
-    background-color: #191970; /* Dark Blue */
-    color: #B6ABCE; /* Lightest Blue */
+    background-color: #6082B6; /* Dark Blue */
+    color: #A7C7E7; /* Lightest Blue */
 }
 
 header {
-    background-color: #483A87; /* Darker Blue/Purple */
-    color: #B6ABCE; /* Lightest Blue */
+    background-color: #7393B3; /* Darker Blue/Purple */
+    color:#A7C7E7; /* Lightest Blue */
     padding: 15px 0;
     text-align: center;
-    border-bottom: 4px solid #9184B7; /* Light Blue */
+    border-bottom: 4px solid #B6D0E2; /* Light Blue */
 }
 
 header h1 {
@@ -48,17 +48,17 @@ main {
 
 footer {
     text-align: center;
-    background-color: #6D5E9F; /* Muted Lavender-Blue */
+    background-color: #7393B3; /* Muted Lavender-Blue */
     color: #B6ABCE; /* Lightest Blue */
     padding: 10px;
-    border-top: 4px solid #9184B7; /* Light Blue */
+    border-top: 4px solid #A7C7E7; /* Light Blue */
 }
 
 .intro img {
     width: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: 5px solid #9184B7; /* Dusty Blue */
+    border: 5px solid #B6D0E2; /* Dusty Blue */
 }
 
 /* Form Inputs */
@@ -66,10 +66,10 @@ form input, form textarea {
     width: 100%;
     padding: 12px;
     margin: 10px 0;
-    border: 2px solid #9184B7; /* Light Blue */
+    border: 2px solid #B6D0E2; /* Light Blue */
     border-radius: 10px;
-    background-color: #483A87; /* Darker Blue/Purple */
-    color: #B6ABCE; /* Lightest Blue */
+    background-color: #7393B3; /* Darker Blue/Purple */
+    color: #B6D0E2; /* Lightest Blue */
 }
 
 /* CUTE CIRCLE BUTTON */
